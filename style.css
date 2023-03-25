@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+navbar{
+    background-color: rgba(0, 255, 255, 0.108);
+    width: 100vw;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;   
+    padding:20px;
+    position: fixed;
+    z-index: 999; 
+    color: white;
+}
+footer{
+    background-color: black;
+    width: 100vw;
+    height: 40px;
+    text-align: center;
+    justify-self: end;
+    color:azure
+}
+centre{
+    background-color: rgba(165, 42, 42, 0);
+    width: 100vw;
+}
+section {
+	position: relative;
+}
+
+.parallax1{
+    background-image: url("https://st4.depositphotos.com/2447287/26799/v/600/depositphotos_267998826-stock-video-abstract-white-particles-motion-parallax.jpg");
+    height: 100vh;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+b{
+    position: relative;
+    top:40vh;
+    font-size: 50px;
+}
+.parallax2{
+    background-image: url("https://img.freepik.com/premium-vector/mountains-nature-silhouette-with-night-sky-moon-trees-vector-forest-illustration_684242-17.jpg");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnEbhKImhyrlFN3h3zHVmbuh5W_hnKnxLXyWCkGB00KRE20HNGz4x7pOgvCi1TRKJTynM&usqp=CAU");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+    .parallax1{
+        background-image: url("https://i.pinimg.com/originals/d4/4d/c1/d44dc1a356350b93e19124480915191d.jpg");
+    }
+    .parallax2{
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCU2hXEfrmPmgtwNuF-0bWGEe6qHNua3Iu0Q&usqp=CAU");
+    }
+    .parallax3{
+        background-image: url("https://wallpaperaccess.com/full/3839329.jpg");
+    }
+}
